@@ -16,12 +16,4 @@ It combines **computer vision**, **generative AI reasoning**, and **agentic work
 
 ---
 
-## 🖼️ System Architecture
-```mermaid
-graph TD
-    A[Camera Input] --> B[YOLOv12 - Obstacle Detection]
-    B --> C[MiDaS - Depth Estimation]
-    C --> D[GPT-5 - Inference & Decisions]
-    D --> E[gTTS - Voice Output]
-    D --> F[Roboflow - Video Inference]
-    D --> G[LangGraph Agent - Caregiver Email Alerts]
+
